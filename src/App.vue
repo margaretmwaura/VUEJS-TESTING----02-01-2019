@@ -6,7 +6,7 @@
 </template>
 
 <script>
-    import TestMe from "./components/TestMe";
+    import TestMe from "./components/TestMe.vue";
     export default {
         name: "App",
         components: {

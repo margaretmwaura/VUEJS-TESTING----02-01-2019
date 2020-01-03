@@ -7,7 +7,7 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 module.exports = {
 
     // Path to your entry point. From this file Webpack will begin his work
-    entry: './src/javascript/index.js',
+    entry: ['./src/javascript/index.js'],
 
     // Path and filename of your result bundle.
     // Webpack will bundle all JavaScript into this file
